@@ -13,7 +13,7 @@ export const About = () => {
     <>
       <div className="container">
         <div className="container align-items-center">
-          <div className="px-4 pt-5 my-3 text-center">
+          <div className="px-3 pt-5 my-3 text-center">
             <h1>
               <span className="display-3 fw-bold text-white my-3">ACT</span>
               <span className="display-3 fw-bold my-3 text-white">IVITIES</span>
@@ -105,7 +105,7 @@ export const About = () => {
               - anntrixastro@gmail.com
             </span>
           </h4>
-          <div className="row py-4 px-3" style={{ borderRadius: "50px" }}>
+          <div className="row py-4 px-1" style={{ borderRadius: "50px" }}>
             <div className="col-md-4 ">
               <div className="card mb-3 " style={{ width: "18rem" }}>
                 <img src={s} className="card-img-top" alt="..." />
