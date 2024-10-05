@@ -1,27 +1,32 @@
 import React, { useState } from 'react';
 import './App.css'; // Import your CSS file
-import { Navbar } from './Conponents/Navbar';
-import { About } from './Conponents/About';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Navbar } from './Components/Navbar';
+import { Home } from './Components/Home';
+import { Blogs } from './Components/Blogs';
 import bgVideo from './assets/bgvideo.mp4'; // Path to your background video
-import { Footer } from './Conponents/Footer';
+import { Footer } from './Components/Footer';
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <>
-    
     <div className="app-container">
-    <Navbar />
-      <video className="video-background" autoPlay muted loop>
-        <source src={bgVideo} type="video/mp4"/>
-        Your browser does not support the video tag.
-      </video>
-      
-      <About />
-      <Footer/>
+      <Router>
+        <div>
+          <Navbar />
+          <video className="video-background" autoPlay muted loop>
+            <source src={bgVideo} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/blogs" element={<Blogs />} />
+          </Routes>
+          
+        </div>
+      </Router>
+      <Footer />
     </div>
-    </>
   );
 }
 

@@ -10,7 +10,7 @@ import s from "../assets/siddhi.jpg";
 
 
 
-export const About = () => {
+export const Home = () => {
   return (
     <>
       <div className="container my-3">
@@ -251,10 +251,9 @@ export const About = () => {
         <div class="card border-0 border-bottom border-primary shadow-sm overflow-hidden">
           <div class="card-body p-0">
             <figure class="m-0 p-0">
-              <img class="img-fluid" loading="lazy" src="./assets/img/team-img-2.jpg" alt="Taytum Elia"/>
-              <figcaption class="m-0 p-4">
-                <h4 class="mb-1">Saurav Teli</h4>
-                <p class="text-secondary mb-0">Content head</p>
+              <figcaption class="m-0 p-3">
+                <h4 class="mb-1 text-center">Saurav Teli</h4>
+                <p class="text-secondary mb-0 text-center">Content head</p>
               </figcaption>
             </figure>
           </div>
@@ -264,10 +263,10 @@ export const About = () => {
         <div class="card border-0 border-bottom border-primary shadow-sm overflow-hidden">
           <div class="card-body p-0">
             <figure class="m-0 p-0">
-              <img class="img-fluid" loading="lazy" src="./assets/img/team-img-4.jpg" alt="Wylder Elio"/>
-              <figcaption class="m-0 p-4">
-                <h4 class="mb-1">Rahul </h4>
-                <p class="text-secondary mb-0">Editing Head</p>
+              {/* <img class="img-fluid" loading="lazy" src="./assets/img/team-img-4.jpg" alt="Wylder Elio"/> */}
+              <figcaption class="m-0 p-3">
+                <h4 class="mb-1 text-center">Rahul </h4>
+                <p class="text-secondary mb-0 text-center">Editing Head</p>
               </figcaption>
             </figure>
           </div>
