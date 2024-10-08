@@ -17,7 +17,7 @@ export const Home = () => {
             ANNTRIX
           </h1>
           <h1 className="col-lg-6 text-white">
-            The Astronomy Club of SGGS NANDED
+            The Astronomy and Astrophysics Club of SGGSIE&T NANDED
           </h1>
 
           <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
@@ -203,7 +203,7 @@ export const Home = () => {
             <div class="position-sticky" style={{ top: "2rem" }}>
               <div class="p-4 mb-3 bg-light rounded">
                 <img className="img-thumbnail" src={poster} alt="" />
-                <h4 class="fW-BOLD">UPCOMMING EVENTS</h4>
+                <h4 class="fW-BOLD">UPCOMING EVENTS</h4>
                 <p class="mb-0">
                   Welcome to AstroQuest! Explore the wonders of the cosmos
                   through our engaging content, written by passionate

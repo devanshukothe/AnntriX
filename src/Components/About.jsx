@@ -1,7 +1,5 @@
 import React from "react";
 import "../App.css"; // Import your CSS file
-import Logo from "../assets/logo.png";
-import bg from "../assets/Bg1.jpg";
 import movie from "../assets/movieScreening.jpg";
 import ques from "../assets/quest.jpg";
 import d from "../assets/deepanshu.png";
@@ -91,7 +89,7 @@ export const About = () => {
         </div>
       </div>
       <div className="container align-items-center">
-        <div className="px-5 pt-5 my-3 text-center">
+        <div className="p-5 pt-5 text-center">
           <h1>
             <span className="display-3 fw-bold text-white my-3">OUR</span>
             <span className="display-3 fw-bold my-3 text-white"> TEAM</span>
@@ -106,8 +104,8 @@ export const About = () => {
             </span>
           </h4>
           <div className="row py-4" style={{ borderRadius: "50px" }}>
-            <div className="col-md-4 ">
-              <div className="card mb-3 " style={{ width: "18rem" }}>
+            <div className="col-md-4">
+              <div className="card mb-3 p-2" style={{ width: "18rem" }}>
                 <img src={s} className="card-img-top" alt="..." />
                 <div className="card-body">
                   <h5 className="card-text">Siddhi Boregaokar</h5>
@@ -125,7 +123,7 @@ export const About = () => {
               </div>
             </div>
             <div className="col-md-4">
-              <div className="card mb-3" style={{ width: "18rem" }}>
+              <div className="card mb-3 p-2" style={{ width: "18rem" }}>
                 <img src={n} className="card-img-top" alt="..." />
                 <div className="card-body">
                   <h5 className="card-text">Netra Deshpande</h5>
@@ -143,7 +141,7 @@ export const About = () => {
               </div>
             </div>
             <div className="col-md-4">
-              <div className="card mb-3" style={{ width: "18rem" }}>
+              <div className="card mb-3 p-2" style={{ width: "18rem" }}>
                 <img src={d} className="image-thumbnail" alt="..." />
                 <div className="card-body">
                   <h5 className="card-text">Deepanshu Singh</h5>
