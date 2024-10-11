@@ -7,6 +7,8 @@ import { Blogs } from './Components/Blogs';
 import bgVideo from './assets/bgvideo.mp4'; // Path to your background video
 import { Footer } from './Components/Footer';
 import { About } from './Components/About';
+import Gallary from './Components/Gallary';
+import Research from './Components/Research';
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/blogs" element={<Blogs />} />
+            <Route path="/gallary" element={<Gallary />} />
+            <Route path="/research" element={<Research />} />
           </Routes>
           
         </div>
